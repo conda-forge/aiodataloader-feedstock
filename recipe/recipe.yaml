@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: aiodataloader
-  version: 0.4.2
+  version: "0.4.3"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/aiodataloader-${{ version }}.tar.gz
-  sha256: c92f6f2fb7ee13939ffd68274895aca44ccc0294a1275179bfb8af2b29b788e1
+  sha256: b8c07ed7fddfdccc2d6298c247b1e5fe9779e5b1c38f2e6ec541a041683ef7e8
 
 build:
   number: 0
